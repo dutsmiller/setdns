@@ -60,7 +60,6 @@ if __name__ == "__main__":
   dns_servers = ["8.8.8.8", "8.8.4.4"]
   interfaces  = [ "Wi-Fi", "Home-Dock" ]
 
-
   if len(args) != 2:
     DNS.usage()
   else:
